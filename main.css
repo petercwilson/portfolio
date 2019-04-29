@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+
+/* Basic Styles  */
+body {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 50px;
+}
+  
+header {
+    padding: 12% 0;
+}
+
+main {
+    width: 50%;
+}
+  
+section {
+    min-height: 150px;
+    padding: 6% 0;
+    background-color: #bbb;
+}
+  
+section:nth-child(even) {
+    background-color: #ddd;
+}
+
+/* Hamburger Menu */
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    padding: 1%;
+}
+  
+.hamburger {
+    position: relative;
+    display: inline-block;
+    width: 1.25em;
+    height: 0.8em;
+    margin-right: 0.3em;
+    border-top: 0.2em solid #444;
+    border-bottom: 0.2em solid #444;
+}
+
+.hamburger:before {
+    content: "";
+    position: absolute;
+    top: 0.1em;
+    left: 0px;
+    width: 100%;
+    border-top: 0.2em solid #444;
+}
