@@ -11,23 +11,41 @@ body {
     line-height: 1.5;
     padding-top: 50px;
 }
+
+.logo {
+    position: absolute;
+    top: -18px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #bbb;
+}
   
 header {
     padding: 12% 0;
 }
 
-main {
-    
-}
-  
-section {
-    min-height: 150px;
-    padding: 6% 0;
+.container {
+    margin: 100px 25%;
     background-color: #bbb;
 }
   
+section {
+    min-height: 50px;
+    padding: 6% 0;
+    margin: 0 auto;
+}
+  
 section:nth-child(even) {
-    background-color: #ddd;
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #bbb;
 }
 
 /* Hamburger Menu */
@@ -56,4 +74,26 @@ nav {
     left: 0px;
     width: 100%;
     border-top: 0.2em solid #444;
+}
+
+/* Media Queries */
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        margin: 75px 10%;
+    }
+
+    section {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .container {
+       margin: 100px 25%;
+    }
 }
