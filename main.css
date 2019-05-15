@@ -14,8 +14,8 @@ body {
 
 @font-face {
     font-family: 'klavika_regularplain';
-    src: url('../portfolio/webfontkit/klavika_regular_plain-webfont.woff2') format('woff2'),
-         url('../portfolio/webfontkit/klavika_regular_plain-webfont.woff') format('woff');
+    src: url('webfontkit/klavika_regular_plain-webfont.woff2') format('woff2'),
+         url('webfontkit/klavika_regular_plain-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
