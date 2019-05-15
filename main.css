@@ -6,10 +6,10 @@
 body {
     font-family: 'klavika_regularplain', Arial, sans-serif;
     background-color: #00BCE1;
-    font-size: 26px;
+    font-size: 1em;
     color: #FCFAF1;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1.375em;
 }
 
 @font-face {
@@ -20,26 +20,75 @@ body {
     font-style: normal;
 }
 
+h1 {
+    font-size: 4em;
+    margin: 0 auto;
+    line-height: 1.25em;
+}
+
+h2 {
+    font-size: 2.25em;
+}
+
+a:link, a {
+    color: #FCFAF1;
+    text-decoration: none;
+}
+
+.bio {
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-bottom: 100px;
+    padding: 5px 15px;
+}
+
+.social-icons {
+    margin-top: 25px;
+}
+
+.social-icons img {
+    opacity: .6;
+    margin-right: 20px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
 header {
     height: 50px;
     margin-bottom: 100px;
 }
 
-h1 {
-    font-size: 34px;
-    margin: 0 auto;
-}
-
 .container {
     display: flex;
-    margin: 50px 25px;
+    margin: 50px 10%;
+    height: 600px;
+}
+
+.container > .projects {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5% 100px 5%;
+    height: 600px;
+}
+
+.container > .projects h1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5% 0 0;
     height: 300px;
 }
 
-.container .about-me {
+.about-me {
     display: flex;
     flex-direction: column;
-    margin: 50px 25px;
+    margin: 0px 10%;
+}
+
+.home-details {
+    justify-content: center;
+    margin: 100px 0px 200px 0px;
 }
 
 .profile {
@@ -52,31 +101,42 @@ h1 {
     clear: both;
 }
 
-.bio {
-    padding: 5px 15px;
+.projects img {
+    justify-content: flex-start;
+    width: 35%;
+    margin: 30px 5% 0px 0px;
 }
 
-footer {
-    font-size: 12px;
-    position: fixed;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #00BCE1;
+.project-one {
+   margin: 5px 15% 0 0;
+}
+
+.project-one h2 {
+    line-height: 1.75em;
+}
+
+.project-one p {
+    font-size: 1.25em;
+    line-height: 1.75em;
+}
+
+.project-one a {
+    margin-right: 20px;
 }
 
 /* Navigation */
 nav {
-    position: fixed;
+    position: absolute;
     overflow: hidden;
-    top: 0;
+    top: 10px;
     right: 0;
-    padding: 0 5px;
+    margin-right: 2%;
+    z-index: 300;
 }
 
 nav li {
     display: inline-block;
+    margin-right: 20px;
 }
 
 .underline a {
@@ -98,33 +158,120 @@ nav li {
 }
 
 /* Media Queries */
-@media only screen and (max-device-width : 374px) {
-    body {
-        font-size: 18px; 
-    }
-    
-    .container {
-        margin: 0 auto;
-    }
-
+@media screen and (max-device-width : 369px) {
     .underline a {
         font-size: 15px;
     }
-}
-@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (webkit-device-pixel-ratio: 3) {
-    body {
-        font-size: 18px;
-    }
 
     h1 {
-        font-size: 32px;
+        font-size: 2em;
+        line-height: 1.25em;
     }
 
-    section {
-        font-size: 26px;
+    h2 {
+        font-size: 1.625em;
+        line-height: 1.15384615em;
+    }
+
+    .bio {
+        font-size: 1em;
+        line-height: 1.25em;
+
+    }
+
+    .container {
+        display: flex;
+        margin: 50px 2%;
+    }
+
+    .about-me {
+        margin: 0 auto;
+    }
+
+    .home-details {
+        justify-content: center;
+        margin: 100px 0px 200px 25px;
+    }
+
+    .project-one p {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-device-width : 370px) and (max-device-width : 767px) {
+    h1 {
+        font-size: 2.5em;
+        line-height: 1.25em;
+    }
+
+    h2 {
+        font-size: 1.625em;
+        line-height: 1.15384615em;
+    }
+
+    .bio {
+        font-size: 1.5em;
+        line-height: 1.25em;
+    }
+
+    .container {
+        display: flex;
+        margin: 50px 2%;
+    }
+
+    .about-me {
+        margin: 0 10%;
+    }
+
+    .home-details {
+        justify-content: center;
+        margin: 100px 0px 200px 20px;
+    }
+    .project-one {
+        clear: both;
+    }  
+
+    .project-one p {
+        font-size: 1.5em;
+    }
+
+    .projects img {
+        width: 75%;
     }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-      
+    h1 {
+        font-size: 4em;
+        line-height: 1.125em;
+    }
+
+    h2 {
+        font-size: 1.625em;
+        line-height: 1.15384615em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .bio {
+        font-size: 2em;
+        line-height: 1.25em;
+        margin-top: 50px;
+
+    }
+
+    .container {
+        display: flex;
+        margin: 50px 5%;
+    }
+
+    .about-me {
+        margin: 0 10%;
+    }
+
+    .home-details {
+        justify-content: center;
+        margin: 100px 0px 200px 0px;
+    }
 }
