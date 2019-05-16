@@ -103,7 +103,7 @@ header {
 
 .projects img {
     justify-content: flex-start;
-    width: 35%;
+    width: 100%;
     margin: 30px 5% 0px 0px;
 }
 
@@ -196,6 +196,10 @@ nav li {
     .project-one p {
         font-size: 14px;
     }
+
+    .project-one img {
+        width: 100%;
+    }
 }
 @media only screen and (min-device-width : 370px) and (max-device-width : 767px) {
     h1 {
@@ -235,11 +239,11 @@ nav li {
     }
 
     .projects img {
-        width: 75%;
+        width: 100%;
     }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1600px) {
     h1 {
         font-size: 4em;
         line-height: 1.125em;
