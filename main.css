@@ -108,20 +108,20 @@ header {
     margin: 30px 5% 0px 0px;
 }
 
-.project-one {
+.project-one, .project-two {
    margin: 10px 2% 0 0;
 }
 
-.project-one h2 {
+.project-one, .project-two h2 {
     line-height: 1.75em;
 }
 
-.project-one p {
+.project-one, .project-two p {
     font-size: 1.25em;
     line-height: 1.75em;
 }
 
-.project-one a {
+.project-one, .project-two a {
     margin-right: 20px;
 }
 
