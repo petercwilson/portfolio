@@ -4,9 +4,10 @@
 
 /* Basic Styles  */
 body {
-    font-family: 'klavika_regularplain', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #00BCE1;
-    font-size: 1em;
+    font-size: .8em;
+    font-weight: 200;
     color: #FCFAF1;
     text-align: left;
     line-height: 1.375em;
@@ -22,16 +23,19 @@ body {
 
 h1 {
     font-size: 4em;
+    font-weight: 400;
     margin: 0 auto;
     line-height: 1.25em;
 }
 
 h2 {
     font-size: 2.25em;
+    font-weight: 200;
 }
 
 .email-link {
     font-size: 1.5em;
+    font-weight: 200;
 }
 
 a:link, a {
