@@ -5,10 +5,9 @@
 /* Basic Styles  */
 body {
     font-family: 'Poppins', sans-serif;
-    /* background-color: #1f2647; */
     background-image: url("img/cyber-bg.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     font-size: .8em;
     font-weight: 200;
     color: #FCFAF1;
@@ -50,7 +49,7 @@ a:link, a {
     font-size: 2em;
     line-height: 1.5em;
     margin-bottom: 100px;
-    padding: 5px 15px 200px;
+    padding: 5px 15px 100px;
 }
 
 .social-icons {
@@ -75,7 +74,7 @@ header {
     display: flex;
     margin: 50px 10%;
     height: 600px;
-    overflow: hidden;
+    
 }
 
 .container > .projects {
@@ -136,7 +135,7 @@ header {
 
 footer {
     text-align: center;
-    
+
 }
 
 /* Navigation */
