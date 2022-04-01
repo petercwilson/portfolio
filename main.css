@@ -8,7 +8,7 @@ body {
     /* background-image: url(""); */
     background-image: linear-gradient(to right bottom, #0e0e0f, #242427, #3a3b41, #51535c, #696c78);
     background-position: center;
-    background-repeat: repeat-y;
+    /* background-repeat: repeat-y; */
     font-size: .8em;
     font-weight: 200;
     color: #FCFAF1;
