@@ -2,13 +2,17 @@
     box-sizing: border-box;
   }
 
+html {
+    height: 100%;
+}
+
 /* Basic Styles  */
 body {
     font-family: 'Poppins', sans-serif;
     /* background-image: url(""); */
     background-image: linear-gradient(to right bottom, #0e0e0f, #242427, #3a3b41, #51535c, #696c78);
     background-position: center;
-    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
     font-size: .8em;
     font-weight: 200;
     color: #FCFAF1;
