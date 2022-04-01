@@ -5,7 +5,8 @@
 /* Basic Styles  */
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url("img/cyber-bg.jpg");
+    background-image: url("");
+    background-color: blue;
     background-position: center;
     background-repeat: repeat-y;
     font-size: .8em;
