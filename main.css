@@ -13,7 +13,8 @@ body {
     background-image: linear-gradient(to right bottom, #0e0e0f, #242427, #3a3b41, #51535c, #696c78);
     background-position: center;
     background-repeat: no-repeat;
-    background-color: darkgray;
+    background-color: rgb(62, 59, 59);
+    background-attachment: fixed;
     font-size: .8em;
     font-weight: 200;
     color: #FCFAF1;
@@ -118,8 +119,8 @@ header {
 }
 
 .projects img {
-    width: 100%;
-    margin: 30px 5% 0px 0px;
+    width: 25%;
+    margin: 5px 5% 0px 0px;
 }
 
 .project {
