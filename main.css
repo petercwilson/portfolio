@@ -42,6 +42,12 @@ h2 {
     font-weight: 200;
 }
 
+span {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
 .email-link {
     font-size: 1.5em;
     font-weight: 200;
@@ -53,7 +59,7 @@ a:link, a {
 }
 
 .bio {
-    font-size: 2em;
+    font-size: 1.75em;
     line-height: 1.5em;
     margin-bottom: 100px;
     padding: 5px 15px 100px;
@@ -169,7 +175,7 @@ nav li {
 }
 
 .underline a {
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
     color: #FCFAF1;
@@ -182,7 +188,7 @@ nav li {
 }
 
 .underline a:hover {
-    border-bottom: 3px solid #D04B78;
+    border-bottom: 3px solid #FFFF00;
     width: 200px;
 }
 
